@@ -9,7 +9,7 @@ class AirController extends Controller
 {
      public function index(){
         $air=Air::all();
-        return view('index');
+        return view('index',["air"=>$air]);
     }
 
     public function view($id){
@@ -17,6 +17,18 @@ class AirController extends Controller
       return view('index',["air"=>$air]);
     }
 
+    public function store(Request $request){
 
+      $air = new Air;
+
+      $air -> date = $request -> date;
+      $air -> AQI = $request -> AQI;
+      
+
+      $air->save();
+
+
+      return redirect('/index');
+  }
 
 }

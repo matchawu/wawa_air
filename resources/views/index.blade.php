@@ -15,18 +15,14 @@
   </head>
   <body>
     <center>
-        <h1>wawa</h1>
-        <div class="progress col-md-5">
-            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
-        </div>
-        <div class="air">
-            <h4>Today's AQI is: </h4>
-            <h1><strong>35</strong></h1>
-        </div>
+    <div class="jumbotron">
+      <h1 class="display-4">早安，您好。</h1>
+      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+      <hr class="my-4">
+      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div>
     </center>
-
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
