@@ -29,6 +29,9 @@ Route::get('/aqi_show', function () {
 Route::get('/look', function () {
     return view('look');
 });
+Route::get('/openData', function () {
+    return view('openData');
+});
 
 
 

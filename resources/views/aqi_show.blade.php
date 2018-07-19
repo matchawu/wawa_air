@@ -8,13 +8,16 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
+    <!-- icon -->
+    <link rel="icon" href="https://png.icons8.com/office/40/000000/investment-portfolio.png">
+
     <!-- d3js -->
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
 
     <!-- custom css -->
     <link href="css/for_aqi_show.css" rel="stylesheet">
 
-    <title>Historical data</title>
+    <title>Open Data</title>
 
   </head>
   <body>

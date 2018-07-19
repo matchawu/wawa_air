@@ -10,6 +10,8 @@
 
     <title>AQI tools</title>
 
+    <!-- icon -->
+    <link rel="icon" href="https://png.icons8.com/office/40/000000/investment-portfolio.png">
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -320,7 +322,7 @@
             </a>
           </div>
           <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
+            <a class="portfolio-item" href="https://www.ventusky.com/">
               <span class="caption">
                 <span class="caption-content">
                   <h1>全球氣候</h1>
@@ -342,7 +344,7 @@
             </a>
           </div>
           <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
+            <a class="portfolio-item" href="/openData">
               <span class="caption">
                 <span class="caption-content">
                   <h1>政府開放資料</h1>
