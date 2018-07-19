@@ -1,0 +1,45 @@
+#O3,#PM25,#PM10,#CO,#NO2,#SO2,#AQI {
+    display: none;
+}
+#detail{
+    display: none;
+    background-color: #909db9!important;
+}
+.bigger:hover{
+    transform: scale(1.25, 1.25);
+    transition-duration: 0.1s;
+}
+footer.footer .social-link:hover{
+    background-color: #333e52!important;
+}
+.air:hover{
+    transform: scale(0.95,0.95);
+    transition-duration: 0.8s;
+    background-color: #8e969e;
+}
+.card{
+    background-color: #909db9;
+    border-color: aliceblue;
+}
+.val{
+    color: aliceblue;
+}
+
+.progress-bar-orange{
+    background-color: orange !important;
+}
+.progress-bar-purple1 {
+    background-color: #930093 !important;
+}
+.progress-bar-purple2 {
+    background-color: #7E0027 !important;
+}
+.service-icon:hover {
+    color: white;
+    /* background-color: #677a9e; */
+    background-color: #778db6;
+}
+
+.dropdown-item:hover {
+    background-color: #dadef2;
+}

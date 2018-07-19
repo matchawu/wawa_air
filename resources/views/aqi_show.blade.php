@@ -11,13 +11,17 @@
     <!-- d3js -->
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
 
-    <title>Hello, world!</title>
+    <!-- custom css -->
+    <link href="css/for_aqi_show.css" rel="stylesheet">
+
+    <title>Historical data</title>
+
   </head>
   <body>
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="display-4">Fluid jumbotron</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <h1 class="display-4">AQI Historical data</h1>
+            <p class="lead">這裡顯示了sensor偵測到的數值的紀錄</p>
         </div>
     </div>
     <center>
@@ -27,24 +31,25 @@
 
       <!-- title -->
       <legend>
-        <b>show</b>
+        <b></b>
 
       </legend>
 
       <!-- course table -->
-      <div class="table-responsive">
-        <table class="table table-striped">
+      <div class="table table-hover">
+        <table class="table table-hover">
           <thead>
             <tr>
-              <th>id</th>
+              <th scope="col">#</th>
               <!-- <th>date</th> -->
-              <th>o3</th>
-              <th>pm25</th>
-              <th>pm10</th>
-              <th>co</th>
-              <th>so2</th>
-              <th>no2</th>
-              <th>aqi</th>
+              <th scope="col">O3</th>
+              <th scope="col">PM2.5</th>
+              <th scope="col">PM10</th>
+              <th scope="col">CO</th>
+              <th scope="col">SO2</th>
+              <th scope="col">NO2</th>
+              <th scope="col">AQI</th>
+              <th scope="col">地點</th>
             </tr>
           </thead>
           <tbody>
@@ -58,6 +63,7 @@
                 <td>{{$aqis->so2}}</td>
                 <td>{{$aqis->no2}}</td>
                 <td>{{$aqis->aqi}}</td>
+                <td></td>
               </tr>
             @endforeach
           </tbody>
@@ -68,6 +74,30 @@
   </div>
 </div>
     <!-- ya -->
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <ul class="list-inline mb-5">
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="#">
+              <i class="icon-social-facebook"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="#">
+              <i class="icon-social-twitter"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white" href="#">
+              <i class="icon-social-github"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="text-muted small mb-0">Copyright &copy; CJ3 2018 August</p>
+      </div>
+    </footer>
     </center>
 
     <!-- Optional JavaScript -->
